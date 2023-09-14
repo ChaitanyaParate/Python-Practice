@@ -1,5 +1,6 @@
 Number = float(input("Enter a number: " ))
-i = 10 * Number
+Till = int(input("You Want Its Tablr Till: "))
+i = Till * Number
 z = 1
 x = Number
 print(z ,"-" , Number)
