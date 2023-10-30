@@ -1,25 +1,36 @@
 number = input("Enter number: ").split(" ")
 
-condition = True
-first = int(number[0])
-second = int(number[1])
-third = int(number[2])
-forth = int(number[3])
+cond = True
+a = int(number[0])
+b = int(number[1])
+c = int(number[2])
+q = int(number[3])
 
-x = 3
+if q == a or q == b or q == c:
+     print("None")
+     cond = False
 
-y = 10**5
-while (condition):
+numbers = [a , b , c , q]
+
+greatest_number = max(numbers)
+
+p = greatest_number + 1
+while (cond):
     
-    if x == y:
+    if p == 10**10:
         
         print("None")
-        condition = False
+        cond = False
         
-    elif x%first == forth and x%second == forth and x%third == forth and x%2 != 0:
-          print(x)
+    elif p % a == q and p % b == q and p % c == q and p % 2 != 0:
+          print(p)
         
-          condition = False
+          cond = False
+
+    elif p % a == q and p % b == q and p % c == q and p % 2 == 0:
+          print("None")
+        
+          cond = False
         
     else:
-        x=x+1
+        p=p+1
