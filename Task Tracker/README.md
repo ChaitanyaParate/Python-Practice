@@ -1,6 +1,8 @@
 Task Tracker and Windows Service
 Task Tracker (Task_edit.py)
+
 Overview
+
 The Task_edit.py script serves as a Task Tracker application allowing users to manage their tasks through a command-line interface. It utilizes the pandas library for handling CSV data, ensuring task uniqueness, and providing functionality such as adding, viewing, marking as complete, and deleting tasks.
 
 Task Class
